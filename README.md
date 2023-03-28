@@ -1,4 +1,4 @@
-# Sor't
+# Sortify
 A Swift Playground project that explains how some of the existing sorting algorithms work on an array( of integers in this case).
 
 ## Sorting algorithms present in the application
