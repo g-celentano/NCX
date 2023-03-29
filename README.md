@@ -9,4 +9,5 @@ A Swift Playground project that explains how some of the existing sorting algori
 - Selection Sort
 
 ### What does the application do?
-Other than showing the sorting of the array, the app tells also the Big-O Notation of that particular algorithm, with also how much time it took to execute (only supported on iOS>16).
+Other than showing the sorting of the array, the app tells also the Big-O Notation of that particular algorithm, with also how much time it took to execute. In addition to that, it's been added the explanation view for the algorithms present in the app, with a little interaction to better understand the selected algorithm, only for the simpler ones for the moment.
+
