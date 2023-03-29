@@ -203,6 +203,6 @@ struct BubbleSort: View {
 
 struct BubbleSort_Previews: PreviewProvider {
     static var previews: some View {
-        BubbleSort(array: [11,87,88,99,5,6,7,8,9,10])
+        BubbleSort(array: [83,79,82,84,73,70,89])
     }
 }
