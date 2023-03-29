@@ -52,19 +52,19 @@ class Sorter {
     
     func quickSort<T: Comparable>(_ array: [T]) -> [T] {
         guard array.count > 1 else { return array }
-     
+        
         let pivot = array[array.count/2]
         let less = array.filter { $0 < pivot }
         let equal = array.filter { $0 == pivot }
         let greater = array.filter { $0 > pivot }
-     
+        
         return quickSort(less) + equal + quickSort(greater)
     }
     
     func mergeSort<T: Comparable>(_ array: inout [T], startIndex: Int, endIndex: Int){
         if startIndex >= endIndex {
-                return
-            }
+            return
+        }
         
         let middleIndex = (startIndex + endIndex) / 2
         mergeSort(&array, startIndex: startIndex, endIndex: middleIndex)
@@ -83,28 +83,28 @@ class Sorter {
         var rightIndex = 0
         
         while leftIndex < leftSubarray.count && rightIndex < rightSubarray.count {
-                if leftSubarray[leftIndex] < rightSubarray[rightIndex] {
-                    array[index] = leftSubarray[leftIndex]
-                    leftIndex += 1
-                }
-                else {
-                    array[index] = rightSubarray[rightIndex]
-                    rightIndex += 1
-                }
-                index += 1
-            }
-            
-            while leftIndex < leftSubarray.count {
+            if leftSubarray[leftIndex] < rightSubarray[rightIndex] {
                 array[index] = leftSubarray[leftIndex]
-                index += 1
                 leftIndex += 1
             }
-            
-            while rightIndex < rightSubarray.count {
+            else {
                 array[index] = rightSubarray[rightIndex]
-                index += 1
                 rightIndex += 1
             }
+            index += 1
+        }
+        
+        while leftIndex < leftSubarray.count {
+            array[index] = leftSubarray[leftIndex]
+            index += 1
+            leftIndex += 1
+        }
+        
+        while rightIndex < rightSubarray.count {
+            array[index] = rightSubarray[rightIndex]
+            index += 1
+            rightIndex += 1
+        }
         
         
     }
