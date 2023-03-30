@@ -14,7 +14,7 @@ extension Text {
     }
 }
 
-func getDifference(_ first: Array<Int>, _ second: Array<Int>) -> Array<Int>{
+func getDifference<T: Comparable>(_ first: Array<T>, _ second: Array<T>) -> Array<Int>{
     var diff : [Int] = []
     for i in 0..<first.count {
         if first[i] != second[i]{
