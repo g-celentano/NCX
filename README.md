@@ -46,8 +46,8 @@ HStack{
                   .padding(width*0.0095)
                   .background(LinearGradient(colors: [
                       Color(uiColor: .white),
-                      diff.contains(index) && steps != arraySteps.count - 1 ? // <- ternary operator to check which indices are involved in the swapping
-                      Color(uiColor: .systemBlue) : Color(uiColor: .systemRed) // color selections based on the condition of the ternary operator
+                      diff.contains(index) && steps != arraySteps.count - 1 ? // <- checking which indices are involved in the swap
+                      Color(uiColor: .systemBlue) : Color(uiColor: .systemRed) // color selections based on the above condition
                   ], startPoint: .topLeading, endPoint: .bottomTrailing))
                   .clipShape(Circle())
                   .foregroundColor(.black)
