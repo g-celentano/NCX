@@ -62,7 +62,10 @@ HStack{
 
 ### Screenshots from the app
 
-<img src="https://user-images.githubusercontent.com/111139129/230491079-4ee39ae4-654a-40f2-823b-f94d0a5e2afc.png" width = "30%" height="30%"> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp; <img src="https://user-images.githubusercontent.com/111139129/230491082-647bf98f-c41b-41df-a704-b7c32e8ce808.png" width = "30%" height="30%"> <br> <br> <img src="https://user-images.githubusercontent.com/111139129/230491083-9939e8e0-8602-4675-864e-698eaf09ce7e.png" width = "30%" height="30%"> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp; <img src="https://user-images.githubusercontent.com/111139129/230491075-6dc21a06-854d-435e-bdbd-758edd61842d.png" width = "30%" height="30%" >
+<img src="https://user-images.githubusercontent.com/111139129/230491079-4ee39ae4-654a-40f2-823b-f94d0a5e2afc.png" width = "30%" height="30%"> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 
+<img src="https://user-images.githubusercontent.com/111139129/230491082-647bf98f-c41b-41df-a704-b7c32e8ce808.png" width = "30%" height="30%"> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 
+<img src="https://user-images.githubusercontent.com/111139129/230491083-9939e8e0-8602-4675-864e-698eaf09ce7e.png" width = "30%" height="30%"> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 
+<img src="https://user-images.githubusercontent.com/111139129/230491075-6dc21a06-854d-435e-bdbd-758edd61842d.png" width = "30%" height="30%" >
 
 
 
